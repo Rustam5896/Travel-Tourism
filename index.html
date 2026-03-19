@@ -57,11 +57,16 @@
                 </div>
 
                 <!-- Mobile Menu Button -->
-                <button class="md:hidden text-slate-300 hover:text-blue-400 p-2 rounded-lg hover:bg-slate-700 transition duration-300" onclick="toggleMobileMenu()">
-                    <i class="fas fa-bars text-xl"></i>
-                    <button onclick="window.location.href='login.html'">Login</button>
-                </button>
-            </div>
+               <button class="md:hidden text-slate-300 hover:text-blue-400 p-2 rounded-lg hover:bg-slate-700 transition duration-300" onclick="toggleMobileMenu()">
+    <i class="fas fa-bars text-xl"></i>
+</button>
+
+<button 
+onclick="window.location.href='login.html'"
+class="bg-white text-black px-4 py-2 rounded-lg font-semibold border border-gray-300 hover:bg-gray-200 transition duration-300"
+>
+Login
+</button>
             
             <!-- Mobile Menu -->
             <div id="mobileMenu" class="hidden md:hidden bg-slate-800/95 backdrop-blur-md border-t border-slate-600 rounded-b-lg shadow-xl">
